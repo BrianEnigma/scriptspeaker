@@ -65,7 +65,7 @@ class AudioGenerator:
                 print(command)
                 os.system(command)
                 f.write("file '{0}'\n".format(os.path.basename(output_filename)))
-                if self._file_counter == 10:
-                    break
+                #if self._file_counter == 10:
+                #    break
         os.system('cd tmp ; ffmpeg -f concat -i input.txt -y "../{0}"'.format(outfile))
         os.system('cd tmp ; ffmpeg -f concat -i input.txt -vn -filter:a "atempo=1.25" -y "../fast-{0}"'.format(outfile))
