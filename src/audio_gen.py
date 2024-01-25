@@ -6,12 +6,37 @@ from script import Line, Script
 from typing import Dict, List
 
 USABLE_VOICES:List[str] = [
-    'Samantha',     # Female
-    'Tessa',        # Female, vaguely British
-    'Rishi',        # Kind of male, kind of computery
-    'Moira',        # Female, also vaguely British
+    'Agnes',
+    'Alex',
+    'Allison',
+    'Ava',
+    'Daniel',
+    'Evan',
+    'Joelle',
     'Karen',
-    'Daniel'
+    'Nathan',
+    'Nicky',
+    'Noelle',
+    'Samantha',
+    'Susan',
+    'Tom',
+    'Zoe',
+    'Karen',
+    'Lee',
+    'Matilda',
+    'Isha',
+    'Rishi',
+    'Sangeeta',
+    'Veena',
+    'Moira',
+    'Fiona',
+    'Tessa',
+    'Daniel',
+    'Jamie',
+    'Kate',
+    'Oliver',
+    'Serena',
+    'Stephanie'
 ]
 
 class AudioGenerator:
