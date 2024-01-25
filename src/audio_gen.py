@@ -57,7 +57,7 @@ class AudioGenerator:
             for line in self._script.lines:
                 self._file_counter += 1
                 output_filename = './tmp/file{0}.aiff'.format(self._file_counter)
-                command = "say -v '{0}' -o '{1}' {2}".format(
+                command = "say -v '{0}' -o '{1}' -- {2}".format(
                     self._character_voice_mapping[line.character],
                     output_filename,
                     shlex.quote(line.line)
