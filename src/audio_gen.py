@@ -31,7 +31,6 @@ USABLE_VOICES:List[str] = [
     'Moira',
     'Fiona',
     'Tessa',
-    'Daniel',
     'Jamie',
     'Kate',
     'Oliver',
